@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+section{
+    height: auto;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+ 
+  }
+
+  .card{
+    height: 400px;
+    width: 350px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .img-card{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .bio{
+    position: absolute;
+    opacity: 0;
+    bottom: 0;
+    left: 10px;
+  }
+  .img-card:hover{
+    transform: scale(1.5);
+    transform: translate3d(2);
+    transition: all 0.5s;
+    filter: opacity(0.5);
+  }
+  .img-card:hover ~ .bio{
+    opacity: 1;
+    transition: all 1s;
+    text-align: center;
+  }
+
+
+
+
+  /* ////////////////////////////////////////////// */
+
+ 
+
+ .trailer1Button1{
+margin-left: 40%;
+padding: 5px;
+border-radius: 20px;
+color: white;
+background-color: black;
+}
+
+  .trailerButton{
+    display: inline-block;
+    background-color:transparent ; 
+    color: #ffffff; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border: 1px solid white; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    text-decoration: none;
+    border-radius: 50px;
+  }
+
+  
+
+  
+  .trailerbutton a:hover {
+    background-color: #0056b3; 
+  }
+
+
+
+  
